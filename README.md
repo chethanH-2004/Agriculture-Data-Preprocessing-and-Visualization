@@ -279,8 +279,8 @@ Multivariate analysis was performed using pairplots and correlation heatmaps.
 # 📁 Repository Structure
 
 ```text
-├── agriculture_data_analysis.ipynb
-├── agriculture_dataset.csv
+├── Indian Agriculture Crop Production.csv
+├── agriculture analysis.ipynb
 ├── README.md
 └── requirements.txt
 ```
