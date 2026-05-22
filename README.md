@@ -115,14 +115,21 @@ The dataset contains agricultural information collected from different states an
 
 # 📥 Data Acquisition Methods
 
-The dataset was obtained from publicly available agricultural data sources in CSV format. The dataset was imported into Python and analyzed using libraries such as:
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+The dataset used in this project was obtained from Kaggle and contains agricultural crop production information across different states, districts, crops, and seasons in India.
 
+🔗 Dataset Source:  
+:contentReference[oaicite:0]{index=0}
+
+The dataset was downloaded in CSV format and imported into Python using the Pandas library for preprocessing and exploratory data analysis.
+
+The dataset includes:
+- crop production information
+- cultivated area details
+- agricultural yield values
+- seasonal crop data
+- state and district-wise records
+  
 ---
 
 # 📊 Analysis
