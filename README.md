@@ -224,22 +224,6 @@ Multivariate analysis was performed using pairplots and correlation heatmaps.
 
 ---
 
-# 📷 Sample Visualizations
-
-## 📌 Univariate Analysis
-- Distribution plots
-- Boxplots
-
-## 📌 Bivariate Analysis
-- Scatter plots
-- Seasonal bar plots
-<img width="1790" height="1189" alt="image" src="https://github.com/user-attachments/assets/8c501479-6a81-4f77-a91a-902095baff87" />
-
-## 📌 Multivariate Analysis
-- Pairplot
-- Correlation heatmap
-
----
 
 # ⚙️ Technologies Used
 
