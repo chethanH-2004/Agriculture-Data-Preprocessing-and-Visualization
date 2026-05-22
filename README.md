@@ -8,7 +8,7 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-cyan?style=for-the-badge)
 
-### 📊 Data Preprocessing • 📈 Visualization • 🔍 Exploratory Data Analysis
+### 📊 Data Preprocessing • 📈 Data Visualization • 🔍 Exploratory Data Analysis
 
 </div>
 
@@ -18,15 +18,15 @@
 
 This project focuses on preprocessing and analyzing an Indian agriculture dataset using Python. The dataset contains agricultural information such as crop production, cultivated area, yield, seasons, and states.
 
-The project applies various preprocessing and exploratory data analysis (EDA) techniques to clean the dataset, handle skewness and outliers, and uncover meaningful agricultural insights.
+Various preprocessing and exploratory data analysis (EDA) techniques were applied to clean the dataset, handle skewness and outliers, and identify meaningful agricultural insights.
 
 ---
 
 # 🌱 Introduction
 
-Agriculture is one of the most important sectors contributing to the Indian economy, employment generation, and food security. Agricultural productivity varies across different states, crops, seasons, and climatic conditions. Understanding these variations is essential for improving crop productivity, agricultural planning, and resource management.
+Agriculture is one of the most important sectors contributing to the Indian economy, employment generation, and food security. Agricultural productivity varies across different states, crops, seasons, and climatic conditions.
 
-With the increasing availability of agricultural data, data analytics and visualization techniques can help identify production trends, seasonal patterns, and regional differences in yield and production. These insights are valuable for farmers, agricultural businesses, policymakers, and researchers.
+Data analysis and visualization techniques help identify production trends, seasonal patterns, and regional variations in crop yield and production. These insights are useful for understanding agricultural performance and improving data-driven analysis.
 
 This project focuses on preprocessing and analyzing agricultural data to improve data quality and derive meaningful insights using Exploratory Data Analysis (EDA) techniques.
 
@@ -34,11 +34,24 @@ This project focuses on preprocessing and analyzing agricultural data to improve
 
 # 🎯 Problem Statement
 
-Agricultural datasets often contain missing values, inconsistent records, skewed distributions, and extreme outliers, which make analysis and interpretation difficult.
+Agricultural datasets often contain missing values, inconsistent records, skewed distributions, and extreme outliers, which can affect data quality and analysis accuracy.
 
-From an agricultural and business perspective, understanding the relationship between cultivated area, crop production, and yield is important for improving productivity, planning agricultural activities, and supporting data-driven decision-making.
+Proper preprocessing and exploratory data analysis are essential for understanding agricultural patterns, improving dataset consistency, and identifying meaningful relationships among variables such as Area, Production, and Yield.
 
-The objective of this project is to preprocess the agricultural dataset, handle inconsistencies and skewness, and perform exploratory data analysis to identify meaningful patterns and relationships among Area, Production, and Yield variables.
+This project focuses on cleaning, transforming, and analyzing an Indian agriculture dataset using various preprocessing and visualization techniques.
+
+---
+
+# 🎯 Objectives
+
+- To preprocess the agricultural dataset for better data quality
+- To handle missing values and inconsistencies in the dataset
+- To detect and treat outliers using statistical methods
+- To reduce skewness using logarithmic transformation
+- To perform univariate, bivariate, and multivariate analysis
+- To visualize relationships among Area, Production, and Yield
+- To analyze seasonal and regional agricultural patterns
+- To prepare the dataset for further analytical applications
 
 ---
 
@@ -48,7 +61,7 @@ The project was carried out using the following methodology:
 
 ## 1️⃣ Data Collection and Loading
 - Dataset imported using Pandas
-- CSV file loaded into Jupyter Notebook
+- CSV dataset loaded into Jupyter Notebook
 
 ---
 
@@ -78,6 +91,12 @@ The project was carried out using the following methodology:
 ### 🔹 Multivariate Analysis
 - Pairplot
 - Correlation heatmap
+
+### 🔹 Summary Statistics
+- Mean
+- Median
+- Standard deviation
+- Correlation analysis
 
 ---
 
@@ -115,11 +134,10 @@ The dataset contains agricultural information collected from different states an
 
 # 📥 Data Acquisition Methods
 
-
 The dataset used in this project was obtained from Kaggle and contains agricultural crop production information across different states, districts, crops, and seasons in India.
 
 🔗 Dataset Source:  
-https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production
+:contentReference[oaicite:0]{index=0}
 
 The dataset was downloaded in CSV format and imported into Python using the Pandas library for preprocessing and exploratory data analysis.
 
@@ -129,7 +147,7 @@ The dataset includes:
 - agricultural yield values
 - seasonal crop data
 - state and district-wise records
-  
+
 ---
 
 # 📊 Analysis
@@ -224,6 +242,25 @@ Multivariate analysis was performed using pairplots and correlation heatmaps.
 
 ---
 
+# 📷 Sample Visualizations
+
+## 🔹 Univariate Analysis
+
+_Add your univariate subplot image here_
+
+---
+
+## 🔹 Bivariate Analysis
+
+_Add your bivariate subplot image here_
+
+---
+
+## 🔹 Correlation Heatmap
+
+_Add your heatmap image here_
+
+---
 
 # ⚙️ Technologies Used
 
@@ -239,9 +276,20 @@ Multivariate analysis was performed using pairplots and correlation heatmaps.
 
 ---
 
+# 📁 Repository Structure
+
+```text
+├── agriculture_data_analysis.ipynb
+├── agriculture_dataset.csv
+├── README.md
+└── requirements.txt
+```
+
+---
+
 # 📌 Conclusion
 
-The agricultural dataset was successfully preprocessed and analyzed using various data preprocessing and visualization techniques.
+The agricultural dataset was successfully preprocessed and analyzed using various preprocessing and visualization techniques.
 
 Missing values and inconsistencies were handled effectively, while clipping and logarithmic transformation improved the distributions of numerical variables significantly.
 
@@ -265,6 +313,9 @@ The analysis revealed meaningful relationships among cultivated area, production
 
 5. Scikit-learn Documentation  
    https://scikit-learn.org/
+
+6. Kaggle Dataset  
+   https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production
 
 ---
 
