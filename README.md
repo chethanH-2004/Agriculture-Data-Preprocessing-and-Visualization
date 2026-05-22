@@ -137,7 +137,7 @@ The dataset contains agricultural information collected from different states an
 The dataset used in this project was obtained from Kaggle and contains agricultural crop production information across different states, districts, crops, and seasons in India.
 
 🔗 Dataset Source:  
-:contentReference[oaicite:0]{index=0}
+https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production
 
 The dataset was downloaded in CSV format and imported into Python using the Pandas library for preprocessing and exploratory data analysis.
 
@@ -246,19 +246,19 @@ Multivariate analysis was performed using pairplots and correlation heatmaps.
 
 ## 🔹 Univariate Analysis
 
-_Add your univariate subplot image here_
+<img width="1189" height="790" alt="image" src="https://github.com/user-attachments/assets/0d5cbbf3-c849-4599-95df-9da27df6168e" />
 
 ---
 
 ## 🔹 Bivariate Analysis
 
-_Add your bivariate subplot image here_
+<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/8a0cc7f1-a14f-499c-a2c8-821744f40573" />
 
 ---
 
 ## 🔹 Correlation Heatmap
 
-_Add your heatmap image here_
+<img width="625" height="526" alt="image" src="https://github.com/user-attachments/assets/01552fda-7127-4305-a694-0136046fed4d" />
 
 ---
 
