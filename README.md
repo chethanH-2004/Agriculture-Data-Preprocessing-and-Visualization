@@ -284,7 +284,25 @@ Multivariate analysis was performed using pairplots and correlation heatmaps.
 ├── agriculture analysis.ipynb
 └── requirements.txt
 ```
+# ⚡ Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/chethanH-2004/Agriculture-Data-Preprocessing-and-Visualization
+```
+
+Install required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
 ---
 
 # 📌 Conclusion
