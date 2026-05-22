@@ -119,7 +119,7 @@ The dataset contains agricultural information collected from different states an
 The dataset used in this project was obtained from Kaggle and contains agricultural crop production information across different states, districts, crops, and seasons in India.
 
 🔗 Dataset Source:  
-:contentReference[oaicite:0]{index=0}
+:https://www.kaggle.com/datasets/pyatakov/india-agriculture-crop-production
 
 The dataset was downloaded in CSV format and imported into Python using the Pandas library for preprocessing and exploratory data analysis.
 
